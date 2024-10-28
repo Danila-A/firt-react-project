@@ -1,0 +1,23 @@
+.languageSelect {
+    display: flex;
+    align-items: center;
+    background-color: #181516;
+    border: 1px solid #535252;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    border-radius: 15px;
+}
+.select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+.img {
+    color: white;
+    fill: currentColor;
+
+}

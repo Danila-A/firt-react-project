@@ -1,0 +1,8 @@
+.header {
+    background: radial-gradient( 50% 100% at 50% 0%, rgba(44, 66, 156, 0.15) 0%, rgba(0, 0, 0, 0) 100% );
+}
+.header__inner {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
