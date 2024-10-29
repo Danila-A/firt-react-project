@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+}
+.input {
+    width: 100%;
+    color: #b6b5b5;
+    border: 1px solid #b6b5b5;
+    background-color: rgba(0, 0, 0, 0.692);
+    border-radius: 5px;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.button {
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: #e50914;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    transition: background-color .2s ease-in
+}
+.button:hover {
+    background-color: #c11119;
+}
