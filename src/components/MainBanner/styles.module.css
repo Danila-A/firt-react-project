@@ -1,6 +1,7 @@
 .banner {
     min-height: 80vh;
     position: relative;
+    background-color: rgba(0, 0, 0, 0.660);
 }
 .banner__bg {
     position: absolute;
@@ -18,12 +19,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: inherit;
     color: white;
-    background-color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(0, 0, 0, 0.660);
 }
 .wrapper {
-    width: 40%;
+    width: 35%;
     text-align: center;
 }
 .form {

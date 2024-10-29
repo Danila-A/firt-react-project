@@ -1,9 +1,15 @@
 import styles from './styles.module.css';
 
-const Text = ({ text }) => {
+const Text = ({ text, bold }) => {
+    console.log(bold);
     return (
         <div>
-            <p className={ styles.text } style={{ fontWeight: 700 }}>{ text }</p>
+            <p 
+                className={ styles.text }
+                style={ bold && { fontWeight: 700} }
+            >
+                { text }
+            </p>
         </div>
     );
 }
