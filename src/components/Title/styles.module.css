@@ -1,0 +1,7 @@
+.title {
+    font-weight: 900;
+    font-size: 56px;
+}
+.title::first-letter {
+    text-transform: capitalize;
+}
