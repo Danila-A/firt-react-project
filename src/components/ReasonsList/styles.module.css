@@ -1,0 +1,11 @@
+.list {
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.list>div {
+    margin-right: 12px;
+}
+.list>div:last-child {
+    margin-right: 0;
+}
