@@ -1,9 +1,9 @@
 .banner {
-    min-height: 80vh;
+    min-height: 760px;
     position: relative;
     background-color: rgba(0, 0, 0, 0.660);
 }
-.banner__bg {
+.background {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -11,7 +11,7 @@
     z-index: 0;
     overflow: hidden;
 }
-.banner__inner {
+.inner {
     position: absolute;
     z-index: 2;
     width: 100%;
@@ -20,14 +20,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: inherit;
     color: white;
     background-color: rgba(0, 0, 0, 0.660);
 }
+.header {
+    position: absolute;
+    width: 100%; 
+    margin: 0 auto; 
+    z-index: 3;
+    top: 0;
+}
 .wrapper {
-    width: 35%;
     text-align: center;
+    max-width: 36.75rem;
 }
 .form {
-    padding-top: 20px;
+    padding-top: 40px;
 }
