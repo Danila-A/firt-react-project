@@ -1,0 +1,9 @@
+.list {
+    padding-top: 24px;
+}
+.list>div {
+    margin-right: 44px;
+}
+.list>div:last-child {
+    margin-right: 0;
+}

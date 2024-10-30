@@ -1,12 +1,10 @@
 import Form from "../Form/Form";
-import Text from "../Text/Text";
+import SmallText from "../SmallText/SmallText";
 
 const GetStarted = () => {
     return (
         <div>
-            <div style={{ fontSize: '16px' }}>
-                <Text text={ 'Ready to watch? Enter your email to create or restart your membership.' } />
-            </div>
+            <SmallText text={ 'Ready to watch? Enter your email to create or restart your membership.' } />
             <div style={{ paddingTop: '20px' }}> 
                 <Form />
             </div>
