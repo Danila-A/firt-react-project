@@ -1,0 +1,10 @@
+.inner {
+    padding-top: 40px;
+    display: flex;
+}
+.inner>div {
+    margin-right: 180px;
+}
+.inner>div:last-child {
+    margin-right: 0;
+}

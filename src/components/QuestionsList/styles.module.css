@@ -1,0 +1,9 @@
+.inner {
+    padding-top: 20px;
+}
+.inner>div {
+    margin-bottom: 8px;
+}
+.inner>div:last-child {
+    margin-bottom: 0;
+}

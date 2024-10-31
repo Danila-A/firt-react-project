@@ -1,0 +1,26 @@
+.question>div:last-child {
+    border-top: 1px solid black;
+}
+.question>div:first-child {
+    transition: 250ms background-color ease-in;
+    cursor: pointer;
+}
+.question>div:first-child:hover {
+    background-color: #414141;
+}
+.background {
+    background-color: #2e2e2e;
+    padding: 24px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+}
+.svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotateZ(45deg); */
+}
